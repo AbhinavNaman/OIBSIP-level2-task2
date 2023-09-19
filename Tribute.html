@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tribute Page</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #DAC0A3;
+        }
+
+        .main {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .first,
+        .second,
+        .third {
+            height: 95vh;
+            padding: 20px;
+        }
+
+        .first {
+            flex: 2;
+            padding: 0;
+            height: 100vh;
+        }
+
+        .second {
+            flex: 2;
+            padding: 0;
+            height: 100vh;
+        }
+
+        .third {
+            flex: 2;
+            padding: 0;
+            height: 100vh;
+        }
+
+        .inside-first {
+            margin: auto;
+            width: 420px;
+            height: 700px;
+            background-color: #F8F0E5;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 200px;
+            border-bottom-right-radius: 200px;
+            /* padding: 20px; */
+            /* padding-top: 0; */
+
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+
+        }
+        /* .inside-second {
+            margin: auto;
+            width: 490px;
+            height: 700px;
+            background-color: #EADBC8;
+            border-top-left-radius: 240px;
+            border-top-right-radius: 240px;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+            margin-top: 50px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        } */
+
+        .inside-second {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* align-items: center; */
+    margin: 0 auto 50px auto;
+    width: 490px;
+    height: 700px;
+    background-color: #EADBC8;
+    border-top-left-radius: 240px;
+    border-top-right-radius: 240px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-top: 50px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+
+        .inside-third {
+            margin: auto;
+            width: 420px;
+            height: 700px;
+            background-color: #F8F0E5;
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 200px;
+            border-bottom-right-radius: 200px;
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+
+img{
+    border-radius: 100%;
+    width:400px;
+    height:400px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    border: 10px solid #DAC0A3;
+}
+
+.second-inside-text{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+}
+
+p{
+    font-size: 18px;
+    line-height: 25px;
+}
+ 
+    </style>
+    
+</head>
+
+<body>
+    <div class="main">
+        <div class="first">
+            <div class="inside-first">
+                <div class="second-inside-text">
+                    <h1>Her Quotes</h1>
+                    <h4>The journey matters as much as the goal.</h4>
+                    <h4>The path from dreams to success does exist</h4>
+                    <br>
+                    <h1>Awards</h1>
+                    <h4>	
+                        Congressional Space Medal of Honor </h4>
+                       <h4> NASA Distinguished Service Medal</h4>
+                       <h4> NASA Space Flight Medal</h4>
+                    
+                </div>
+            </div>
+        </div>
+        <div class="second">
+            <div class="inside-second">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Kalpana_Chawla%2C_NASA_photo_portrait_in_orange_suit.jpg/1200px-Kalpana_Chawla%2C_NASA_photo_portrait_in_orange_suit.jpg" />
+                <div class="second-inside-text">
+                    <h1>Kalpana Chawla</h1>
+                    <h4>Indian-American astronaut and aerospace engineer</h4>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="third">
+            <div class="inside-third ">
+                <div class="second-inside-text">
+                    <h2>About her:</h2>
+                    <p>Kalpana Chawla (17 March 1962 - 1 February 2003) was an Indian-born American astronaut and aerospace engineer who was the first woman of Indian origin to fly to space. She first flew on Space Shuttle Columbia in 1997 as a mission specialist and primary robotic arm operator.
+    
+                        Chawla's second flight was on STS-107, the final flight of Columbia, in 2003. She was one of the seven crew members who died in the Space Shuttle Columbia disaster when the spacecraft disintegrated during its re-entry into the Earth's atmosphere on 1 February 2003.[6] Chawla was posthumously awarded the Congressional Space Medal of Honor, and several streets, universities, and institutions have been named in her honor.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>
